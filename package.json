@@ -1,0 +1,43 @@
+{
+  "name": "iban-checksum",
+  "version": "0.1.0",
+  "description": "Tiny IBAN format and mod-97 checksum check, plus normalize and format helpers. Zero dependencies.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "iban",
+    "mod97",
+    "checksum",
+    "validation",
+    "payments"
+  ],
+  "author": "potato-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potato-dev-web/iban-checksum.git"
+  },
+  "homepage": "https://github.com/potato-dev-web/iban-checksum#readme",
+  "bugs": {
+    "url": "https://github.com/potato-dev-web/iban-checksum/issues"
+  },
+  "license": "MIT"
+}
