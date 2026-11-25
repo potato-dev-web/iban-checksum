@@ -1,6 +1,6 @@
 {
   "name": "iban-checksum",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny IBAN format and mod-97 checksum check, plus normalize and format helpers. Zero dependencies.",
   "type": "module",
   "main": "./src/index.js",
