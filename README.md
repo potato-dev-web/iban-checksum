@@ -1,5 +1,7 @@
 # iban-checksum
 
+[![npm version](https://img.shields.io/npm/v/iban-checksum.svg)](https://www.npmjs.com/package/iban-checksum)
+
 A tiny, dependency-free check that a string looks like an IBAN and passes the mod-97 checksum, plus two helpers to clean it up and print it nicely.
 
 - Zero dependencies, ESM, Node 18+
@@ -11,6 +13,9 @@ A tiny, dependency-free check that a string looks like an IBAN and passes the mo
 ```sh
 npm install iban-checksum
 ```
+
+- npm: [npmjs.com/package/iban-checksum](https://www.npmjs.com/package/iban-checksum)
+- Source and issues: [github.com/potato-dev-web/iban-checksum](https://github.com/potato-dev-web/iban-checksum)
 
 ## Usage
 
