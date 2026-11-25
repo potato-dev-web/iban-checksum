@@ -81,7 +81,7 @@ test("non-strings return false instead of throwing", () => {
 });
 
 test("normalizeIban", () => {
-  assert.equal(normalizeIban(" gb29 nwbk-6016 1331	9268 19 "), "GB29NWBK60161331926819");
+  assert.equal(normalizeIban(" gb29 nwbk-6016 1331\t9268 19 "), "GB29NWBK60161331926819");
   assert.equal(normalizeIban(""), "");
   assert.throws(() => normalizeIban(42), TypeError);
 });
